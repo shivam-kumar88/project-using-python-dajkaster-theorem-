@@ -69,7 +69,7 @@ for i in range(0, size):
         box(GREEN)
         box_letter(BLACK, random.choice(all_words), (xaxis+7), yaxis)
 
-
+# changes
 # for clicked box
 pygame.draw.rect(win, BLUE, (xaxis, (yaxis+20), (length), (wide-20)))
 
